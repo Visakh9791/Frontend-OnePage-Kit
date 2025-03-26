@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-con{
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    min-height:100vh;
+    background-size: cover;
+    padding-top:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:30px;
+}
+
+@media screen and (min-width: 768px){
+    .bg-con{
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+    }
+}
+
+.tvlcon{
+    width:90%;
+    max-width:450px;
+}
+
+@media screen and (min-width: 768px){
+    .tvlcon{
+        
+        max-width:6000px;
+}
+}
+
+.head{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:30px;
+    text-align:center;
+}
+
+@media screen and (min-width: 768px){
+    .head{
+        font-size:45px;
+    }
+}
+
+.des{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:20px;
+    text-align:center;
+}
+
+.buttoncon{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:44px;
+}
+
+@media screen and (min-width: 768px){
+    .buttoncon{
+        flex-direction:row;
+        margin-top:44px;
+    }
+}
+
+.button{
+    font-family:"Roboto";
+    font-size:18px;
+    font-weight:700;
+    border-radius:36px;
+    padding-bottom:14px;
+    padding-top:14px;
+    padding-left:48px;
+    padding-right:48px;
+}
+
+.getstart{
+    color:#183b56;
+    background-color:#ffffff;
+    border:none;
+    margin-bottom:20px;
+}
+
+@media screen and (min-width: 768px){
+    .getstart{
+        margin-right: 20px;
+    }
+}
+
+.knowmore{
+    background-color: transparent;
+    color:#ffffff;
+    border:2px solid #ffffff;
+    margin-top:24px;
+}
+
+@media screen and (min-width: 768px){
+    .knowmore{
+        margin-top:0px;
+    }
+}
