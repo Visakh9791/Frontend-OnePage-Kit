@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="about-me-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column justify-content">
+                    <h1 class="sub-heading mb-3">Facts</h1>
+                    <h1 class="heading mb-3">About Me</h1>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="about-img d-md-none mb-3" />
+                    <p class="description"> My name is Visakh
+                        <br /> <br />
+                        I am dedicated
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-1 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="about-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="sub-heading mb-3">Skills:</h1>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card shadow text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skill-img" />
+                        <h1 class="skill-name">HTML</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card shadow text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skill-img" />
+                        <h1 class="skill-name">css</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card shadow text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skill-img" />
+                        <h1 class="skill-name">bs</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-card shadow text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skill-img" />
+                        <h1 class="skill-name">Js</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
